@@ -65,16 +65,14 @@ We’re actively preparing the open-source codebase including:
 If our work inspires yours, please cite us:
 
 ```bibtex
-@INPROCEEDINGS{10707445,
+@inproceedings{shi2024meta,
+  title={Meta data retrieval for data infrastructure via RAG},
   author={Shi, Zhuo-Fan and Liu, Kun and Bai, Shan and Jiang, Yun-Tao and Huo, Tong and Jing, Xiang and Li, Rui-Zhi and Ma, Xin-Jian},
-  booktitle={2024 IEEE International Conference on Web Services (ICWS)}, 
-  title={Meta data retrieval for data infrastructure via RAG}, 
+  booktitle={2024 IEEE International Conference on Web Services (ICWS)},
+  pages={100--107},
   year={2024},
-  volume={},
-  number={},
-  pages={100-107},
-  keywords={Measurement;Costs;Web services;Large language models;Metadata;Iterative methods;Agent;RAG;Data infrastructure;Digital object;Metadata},
-  doi={10.1109/ICWS62655.2024.00029}}
+  organization={IEEE}
+}
 
 ```
 

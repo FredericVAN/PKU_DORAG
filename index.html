@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOR-RAF: Meta Data Retrieval for Data Infrastructure via RAG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">🚀 Meta Data Retrieval for Data Infrastructure via RAG</h1>
+            <div class="paper-link">
+                <a href="https://ieeexplore.ieee.org/document/10707445" target="_blank" class="btn-primary">
+                    📄 CCF-B (2024 ICWS)
+                </a>
+            </div>
+            <div class="authors">
+                <p class="subtitle">🧠 <strong>DOR-RAF</strong>: A RAG + Agent-based Data Characterization Framework</p>
+                <p class="author-list">✍️ <em>Zhuo-fan Shi, Kun Liu, et al.</em></p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section class="section">
+                <h2 class="section-title">🧩 About the Project</h2>
+                <p class="description">
+                    This is the official repository for the paper:
+                </p>
+                <blockquote class="quote">
+                    <strong>Meta Data Retrieval for Data Infrastructure via RAG</strong><br>
+                    Presented at <em>IEEE ICWS 2024</em>
+                </blockquote>
+                <p class="description">
+                    We propose <strong>DOR-RAF</strong> (Digital Object Retrieval via RAG-Agent Fusion), a new framework that integrates Retrieval-Augmented Generation (RAG) and Agent mechanisms to tackle metadata inefficiency, fuzzy requirements, and costly retrieval in modern data infrastructures.
+                </p>
+            </section>
+
+            <!-- Highlights Section -->
+            <section class="section">
+                <h2 class="section-title">📌 Highlights</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h3 class="highlight-title">✨ Why DOR-RAF?</h3>
+                        <ul class="feature-list">
+                            <li>💡 Supports <strong>fuzzy & complex queries</strong> with multi-round dialogue</li>
+                            <li>🔍 Combines <strong>keyword</strong> + <strong>vector</strong> search for robust metadata retrieval</li>
+                            <li>🤖 Agent decomposes and rewrites queries for intelligent feedback</li>
+                            <li>📚 Uses a <strong>custom-built dataset</strong> simulating realistic digital infrastructure</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-card">
+                        <h3 class="highlight-title">📊 Key Results</h3>
+                        <div class="results-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Task</th>
+                                        <th>DOR-RAF vs. Baselines</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>🎯 Digital Object Retrieval</td>
+                                        <td>+18.6% ↑ F1-score vs. keyword search</td>
+                                    </tr>
+                                    <tr>
+                                        <td>📐 Data Characterization</td>
+                                        <td>+14.5 ↑ Answer Correctness vs. Original RAG</td>
+                                    </tr>
+                                    <tr>
+                                        <td>🧠 Faithfulness, Precision, Similarity</td>
+                                        <td>Substantially improved!</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What's Inside Section -->
+            <section class="section">
+                <h2 class="section-title">🛠️ What's Inside (Coming Soon)</h2>
+                <p class="description">
+                    We're actively preparing the open-source codebase including:
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">📦 <strong>DOR-RAF Framework</strong> (Agent + DO-RAG)</div>
+                    <div class="feature-item">🔧 LangGraph-based <strong>Self-RAG implementation</strong></div>
+                    <div class="feature-item">🧪 RAGAS-based <strong>evaluation pipeline</strong></div>
+                    <div class="feature-item">🧾 Custom <strong>digital object dataset</strong> generator</div>
+                    <div class="feature-item">🧠 Scripts for embedding models, LLM interface, Elasticsearch, etc.</div>
+                </div>
+                <p class="note">🕒 Stay tuned! The code and documentation will be released shortly. Follow the repo and ⭐ star it to get updates.</p>
+            </section>
+
+            <!-- Abstract Section -->
+            <section class="section">
+                <h2 class="section-title">🧪 Abstract</h2>
+                <div class="abstract-box">
+                    <p>
+                        Data infrastructures face challenges in metadata retrieval due to inefficiency, ambiguity, and manual costs. DOR-RAF tackles these by integrating Large Language Models (LLMs) and RAG tools via an intelligent Agent. It handles vague queries, decomposes complex tasks, and achieves interactive multi-turn retrieval. Experiments on a custom dataset show clear improvements over traditional keyword-based and vanilla RAG methods in terms of F1, precision, and semantic alignment.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Citation Section -->
+            <section class="section">
+                <h2 class="section-title">📖 Citation</h2>
+                <p class="description">If our work inspires yours, please cite us:</p>
+                <div class="citation-box">
+                    <pre><code>@inproceedings{shi2024meta,
+  title={Meta data retrieval for data infrastructure via RAG},
+  author={Shi, Zhuo-Fan and Liu, Kun and Bai, Shan and Jiang, Yun-Tao and Huo, Tong and Jing, Xiang and Li, Rui-Zhi and Ma, Xin-Jian},
+  booktitle={2024 IEEE International Conference on Web Services (ICWS)},
+  pages={100--107},
+  year={2024},
+  organization={IEEE}
+}</code></pre>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section">
+                <h2 class="section-title">📬 Contact</h2>
+                <div class="contact-info">
+                    <p>💬 <em>Corresponding Author</em>: <a href="mailto:maxj@aibd.ac.cn">Xin-jian Ma</a></p>
+                    <p>🧑‍💻 <em>Lead Maintainer</em>: <a href="mailto:120l021011@stu.hit.edu.cn">Zhuo-fan Shi</a></p>
+                    <p>📍 <em>Affiliations</em>: National Key Lab of Data Space Technology & Advanced Institute of Big Data, Beijing</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>✨ Let's build more intelligent, semantic, and interactive data infrastructures together.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

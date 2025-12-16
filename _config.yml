@@ -1,0 +1,7 @@
+# GitHub Pages configuration
+theme: jekyll-theme-minimal
+title: DOR-RAF
+description: Meta Data Retrieval for Data Infrastructure via RAG
+plugins:
+  - jekyll-sitemap
+
